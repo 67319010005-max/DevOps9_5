@@ -1,0 +1,109 @@
+body {
+           font-family:'Arial',sans-serif;
+    background-color : #c399ff;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding: 30px 0;
+    margin: 0;
+    min-height: 100vh;
+    }
+.main-form{
+      background-color : #2d42cc;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 600px;
+      box-sizing: border-box;
+}
+h1 {
+color: #6713ab;
+text-align: center;
+margin-bottom:  5px;
+}
+p {
+text-align: center;
+color:blueviolet;
+margin-bottom: 25px;
+}
+fieldset {
+          border: 1px solid #412664;
+          border-radius:8px;
+          padding: 20px;
+          margin-bottom: 30px;
+}
+legnd {
+          font-size: 1.2em;
+          font-weight: bold;
+          color: blue;
+          padding :0 10px;
+}
+.form-group {
+          margin-bottom: 15px;
+}
+label {
+          display: block;
+          margin-bottom: 5px;
+          font-weight: 600;
+          color: rgb(38, 20, 118);
+}
+nput[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #150135;
+border-radius: 6px; 
+box-sizing: border-box;
+transition: border-color 0.3s;
+font-size: 16px;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+
+textarea:focus {
+     border-color:#FF3366; 
+          outline:none;
+box-shadow: 0 0px#FF0066     
+}
+.radio-group, .checkbox-group {
+          display: flex;
+          gap: 20px;
+          margin-top: 10px;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+          border-color: #CC00FF;
+          outline: none;
+          box-shadow: 0 0 5px #B22222(26,115,232,0.2);
+}
+.radio-group, .checkbox-group {
+          display: flex;
+          gap: 20px;
+          margin-top: 10px;
+}
+.btn {
+          padding: 10px 20px;
+          border: none;
+          border-radius: 6px;
+          cursor: pointer;
+          font-size: 16px;
+          font-weight: bold;
+          transition: background-color 0.3s,opacoty 0.3s;
+          margin-left: 10px;
+}
+.submikt-btn {
+          background-color: #FF00FF;
+          color: aliceblue;
+}
+.btn:hover {
+          background-color: #FF00FF;
+}

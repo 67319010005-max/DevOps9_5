@@ -1,32 +1,41 @@
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>แบบฟอร์มลงทะเบียนและรับข้อเสนอแนะ</title>
 
+    <!-- ลิงก์ CSS ถูกต้อง -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <form action="#" method="post" >
+    <form action="#" method="post">
         <h1>แบบฟอร์มลงทะเบียนและรับข้อเสนอแนะ</h1>
         <p>กรุณากรอกข้อมูลและแสดงความคิดเห็นของคุณ</p>
+
+        <!-- ข้อมูลส่วนบุคคล -->
         <fieldset>
             <legend>ข้อมูลส่วนบุคคล</legend>
-            <div >
+
+            <div>
                 <label for="fullname">ชื่อ-นามสกุล:</label>
                 <input type="text" id="fullname" name="fullname" required>
             </div>
-            <div >
+
+            <div>
                 <label for="email">อีเมล:</label>
                 <input type="email" id="email" name="email" required>
             </div>
+
             <div>
                 <label for="password">ตั้งรหัสผ่าน:</label>
                 <input type="password" id="password" name="password" minlength="8" required>
             </div>
 
-            <div >
+            <div>
                 <label for="birthdate">วันเกิด:</label>
                 <input type="date" id="birthdate" name="birthdate">
             </div>
@@ -41,12 +50,14 @@
                 </select>
             </div>
         </fieldset>
-        
+
+        <!-- ความสนใจและไฟล์แนบ -->
         <fieldset>
-            <legend>ความสนใจและไฟล์แนบ</legend>          
+            <legend>ความสนใจและไฟล์แนบ</legend>
+
             <div>
                 <label>เพศ:</label>
-                <div >
+                <div>
                     <input type="radio" id="male" name="gender" value="male" checked>
                     <label for="male">ชาย</label>
 
@@ -66,7 +77,7 @@
 
                     <input type="checkbox" id="design" name="interest[]" value="design">
                     <label for="design">การออกแบบกราฟิก</label>
-                    
+
                     <input type="checkbox" id="data" name="interest[]" value="data">
                     <label for="data">วิทยาศาสตร์ข้อมูล</label>
                 </div>
@@ -78,20 +89,22 @@
             </div>
         </fieldset>
 
+        <!-- ข้อเสนอแนะ -->
         <fieldset>
-            <legend>ข้อเสนอแนะและการตั้งค่า</legend>               
+            <legend>ข้อเสนอแนะและการตั้งค่า</legend>
             <div>
                 <label for="feedback">ข้อเสนอแนะเพิ่มเติม:</label>
                 <textarea id="feedback" name="feedback" rows="4" placeholder="กรุณาแสดงความคิดเห็นของคุณที่นี่"></textarea>
             </div>
         </fieldset>
 
-        <div >
+        <!-- ปุ่ม -->
+        <div>
             <button type="submit">ส่งข้อมูล (Submit)</button>
-            <button type="reset" >ล้างข้อมูล (Reset)</button>
+            <button type="reset">ล้างข้อมูล (Reset)</button>
         </div>
-
     </form>
-    
+
 </body>
+
 </html>
