@@ -97,13 +97,13 @@ textarea:focus {
           cursor: pointer;
           font-size: 16px;
           font-weight: bold;
-          transition: background-color 0.3s,opacoty 0.3s;
+          transition: background-color 0.3s,#661191 0.3s;
           margin-left: 10px;
 }
 .submikt-btn {
-          background-color: #FF00FF;
-          color: aliceblue;
+          background-color: #7b6b8b;
+          color: rgb(52, 34, 142);
 }
 .btn:hover {
-          background-color: #FF00FF;
+          background-color: #7b6b8b;
 }
